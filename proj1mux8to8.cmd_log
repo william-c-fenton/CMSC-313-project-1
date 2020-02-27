@@ -1,0 +1,1 @@
+sch2sym -intstyle ise -family spartan6 -w -refsym proj1mux8to8 /home/ise/Xilinx_Stuff/Project1_Skeleton/SimpleProcessor/proj1mux8to8.sch /home/ise/Xilinx_Stuff/Project1_Skeleton/SimpleProcessor/proj1mux8to8.sym 
