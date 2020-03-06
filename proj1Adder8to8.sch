@@ -41,9 +41,11 @@
         <signal name="Output(6)" />
         <signal name="Output(7)" />
         <signal name="XLXN_57" />
+        <signal name="aCOut" />
         <port polarity="Output" name="Output(7:0)" />
         <port polarity="Input" name="A(7:0)" />
         <port polarity="Input" name="B(7:0)" />
+        <port polarity="Output" name="aCOut" />
         <blockdef name="proj1FullAdder1to1">
             <timestamp>2020-3-3T22:20:12</timestamp>
             <rect width="256" x="64" y="-192" height="192" />
@@ -115,7 +117,7 @@
             <blockpin signalname="A(7)" name="A" />
             <blockpin signalname="B(7)" name="B" />
             <blockpin signalname="XLXN_34" name="Carryin" />
-            <blockpin name="Carryout" />
+            <blockpin signalname="aCOut" name="Carryout" />
             <blockpin signalname="Output(7)" name="Output" />
         </block>
         <block symbolname="gnd" name="XLXI_9">
@@ -364,5 +366,14 @@
             <wire x2="992" y1="288" y2="288" x1="960" />
         </branch>
         <instance x="832" y="224" name="XLXI_9" orien="R90" />
+        <branch name="aCOut">
+            <attrtext style="alignment:SOFT-LEFT;fontsize:28;fontname:Arial" attrname="Name" x="3152" y="1368" type="branch" />
+            <wire x2="1392" y1="2064" y2="2064" x1="1376" />
+            <wire x2="3152" y1="2064" y2="2064" x1="1392" />
+            <wire x2="3248" y1="1280" y2="1280" x1="3152" />
+            <wire x2="3152" y1="1280" y2="1376" x1="3152" />
+            <wire x2="3152" y1="1376" y2="2064" x1="3152" />
+        </branch>
+        <iomarker fontsize="28" x="3248" y="1280" name="aCOut" orien="R0" />
     </sheet>
 </drawing>
