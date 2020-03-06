@@ -1,0 +1,1 @@
+sch2sym -intstyle ise -family spartan6 -w -refsym proj1Subtractor8to8 /home/ise/XilinxFiles/Project1_Skeleton/SimpleProcessor/proj1Subtractor8to8.sch /home/ise/XilinxFiles/Project1_Skeleton/SimpleProcessor/proj1Subtractor8to8.sym 
